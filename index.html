@@ -13,13 +13,13 @@
   <body>
     
     <!-- navbar -->
-    <nSav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" style="transform: translate(0px, 0px); opacity: 1;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">MUHAMMAD ROSYID RIDHO</a>
-        <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Muhammad Rosyid Ridho</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse show" id="navbarNav" style="">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -28,7 +28,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#Education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Experience">Experience</a>
@@ -39,7 +39,7 @@
           </ul>
         </div>
       </div>
-    </nSav>
+    </nav>
     <!-- akhir navbar -->
 
     <!-- Jumbotron -->
@@ -47,10 +47,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="fs-4 text-center aos-init aos-animate" data-aos="fade right" style="transform:translate(0px, 0px); opacity: 1;" >
-              <div data-aos="fade right">
-                <img src="img/image-removebg-preview.png" alt="Muhammad Rosyid Riho" l />
-              </div>
+            <div class="fs-4 text-center">
+                <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Muhammad Rosyid Riho" class="rounded-circle" 
+                 style="height: 25rem; width:25rem"/>
               <div class="display-4 text-white">
                 <h1>Muhammad Rosyid Ridho</h1>
                 <p class="lead text-white">Technical Information | Software Engeneering</p>
@@ -58,7 +57,7 @@
             </div>
           </div>
           <div id="about" class="col-lg-6">
-            <div class="fs-4 text-center" data-aos="fade-left"><br><br> 
+            <div class="fs-4 text-center" data-aos="fade up"><br><br> 
               <h1 class="text-light">About Me</h1>
               <div class="col">
                 <p id="nama">
@@ -82,7 +81,7 @@
     </section>
     <!-- akhir jumbotron -->
     <!-- education and Achivement-->
-    <section id="education">
+    <section id="Education">
         <div class="container">
          <!-- education --> 
          <div class="row">
@@ -133,7 +132,7 @@
             <h1>Experience</h1>
           </div>
           <div class="row justify-content-center">
-            <div class="col-5">
+            <div class="col-5 aos-init aos-animate">
               <div data-aos="fade-right">
                 <h4>April 2020 - April 2021</h4>
                 <h4>*BADAN EKSEKUTIF MAHASISWA*</h4>
@@ -141,7 +140,7 @@
               </h6>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-5 aos-init aos-animate">
               <div data-aos="fade-left">
                 <h4>Desember 2021 - Maret 2022</h4>
                 <h4>*ADMINISTRATION STAFF*</h4>
@@ -216,7 +215,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
 
    <script>
-     gsap.from('.img-thumbnail', { duration: 2, rotationX: 360 });
+     gsap.from('.img-thumbnail', { duration: 1, rotationX: 180 });
      gsap.from('.navbar', { duration: 1.5, opacity: 0, y: '-100%', ease: 'bounce' });
      gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
 

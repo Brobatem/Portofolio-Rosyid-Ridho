@@ -3,11 +3,6 @@ body {
   padding: 0%;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 card {
   width: 100%;
   height: auto;
@@ -41,15 +36,11 @@ card {
 
 #nav1 {
   background-color: #0000009d;
-  width: 100%;
-  height: auto;
 }
 
 section {
   background-color: #273036;
   padding-top: 6rem;
-  height: 100%;
-  width: auto;
 }
 
 #background {

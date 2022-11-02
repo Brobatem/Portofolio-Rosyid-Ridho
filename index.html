@@ -13,60 +13,57 @@
   <body>
     
     <!-- navbar -->
-    <nav id="nav1" class="navbar fixed-top">
-      <div class="container-fluid">
-        <a class="navbar" href="#">
-          <h5 id="nama">Muhammad Rosyid Ridho</h5>
-        </a>
-        <nav id="navbarnav" class="navbar navbar-expand-lg navbar-light">
-          <a id="HOME" class="navbar-brand text-light" href="">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navbarNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav justify-content-md-start">
-              <li class="nav-item">
-                <a class="text-light nav-link" aria-current="page" href="#education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-light nav-link" href="#education">Achievements</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-light nav-link" href="#Experience">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-light nav-link" href="#contact">contact</a>
-              </li>
-            </ul>
-          </div>  
-        </nav>
+    <nSav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" style="transform: translate(0px, 0px); opacity: 1;">
+      <div class="container">
+        <a class="navbar-brand" href="#">MUHAMMAD ROSYID RIDHO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse show" id="navbarNav" style="">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </nav>
+    </nSav>
     <!-- akhir navbar -->
 
     <!-- Jumbotron -->
     <section id="jumbotron">
-      <br>
-      <br>
       <div class="container">
-        <div class="aos-init aos-animate" data-aos="fade right" style="transform:translate(0px, 0px); opacity: 1;" >
-          <div data-aos="fade right">
-            <img src="/img/image-removebg-preview (5).png" alt="Muhammad Rosyid Riho" width="400" />
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="fs-4 text-center aos-init aos-animate" data-aos="fade right" style="transform:translate(0px, 0px); opacity: 1;" >
+              <div data-aos="fade right">
+                <img src="img/image-removebg-preview (5).png" alt="Muhammad Rosyid Riho" l />
+              </div>
+              <div class="display-4 text-white">
+                <h1>Muhammad Rosyid Ridho</h1>
+                <p class="lead text-white">Technical Information | Software Engeneering</p>
+              </div>
+            </div>
           </div>
-          <div style="text-align: left;" id="nama" class="display-4">
-            <h1>Muhammad Rosyid Ridho</h1>
-            <p id="nama" class="lead">Technical Information | Software Engeneering</p>
-          </div>
-        </div>
-        <div class="col text-center">
-          <div class="justify-content-center fs-4 text-center" data-aos="fade-left"><br><br> 
-            <h1 class="text-light">About Me</h1>
-            <div class="col">
-              <p id="nama">
-                Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!<br><BR>
-                 I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
-                activities makes me have to continue to study time management.
-              </p>
+          <div id="about" class="col-lg-6">
+            <div class="fs-4 text-center" data-aos="fade-left"><br><br> 
+              <h1 class="text-light">About Me</h1>
+              <div class="col">
+                <p id="nama">
+                  Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!<br><BR>
+                   I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
+                  activities makes me have to continue to study time management.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -83,86 +80,74 @@
     <!-- akhir jumbotron -->
     <!-- education and Achivement-->
     <section id="education">
-      <div class="container justify-content-center" style="column-gap: 120px ;">
+      <div class="container">
          <!-- education --> 
-        <div class="text-center mb-3 text-dark">
-            <div id="nama" class="col">
-              <h1>Education</h1>
+         <div class="row">
+          <div class="col">
+            <div class="text-center text-light" style="margin-bottom: 2rem;">
+              <h1>Educations</h1>
             </div>
-            <div class="container">
-              <div data-aos="zoom-in" class="card" style="width: 18rem;">
-                <h4>2016-2019</h4>
-                <img src="/img/maxresdefault.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text" style="color: #000000;">
-                    <h5>Man1 Kota Tangerang</h5>
-                    <h6>meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta ketrampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut dengan memiliki keseimbangan sikap, pengetahuan dan ketrampilan yang terpadu dalam kehidupan sehari-hari</h6>
-                  <a href="https://mankotatangerang1.com/">https://mankotatangerang1.com/</a>
-                  </p>
+            <div class="row"> 
+              <div class="col-6">
+                <div data-aos="zoom-in" class="card text-center">
+                  <div style="margin-top: 1rem;">
+                    <img src="img/maxresdefault.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text" style="color: #000000;">
+                      <h2>Man1 Kota Tangerang</h2>
+                      <h3>2016-2019</h3>
+                    <a href="https://mankotatangerang1.com/">https://mankotatangerang1.com/</a>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div data-aos="zoom-in" class="card" style="width: 18rem; height: 31,5rem;">
-                <h4>2019-NOW</h4>
-                <img src="/img/gedung-ur-1-1024x768.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">
-                    <h4>Universitas Raharja</h4>
-                    <h6>"Universitas Raharja memiliki keunggulan diantaranya bersertifikasi ISO 9001, The World Summit Award, Hak Paten RI, iLearning Laboratory dan member MSDN AA."</h6>
-                    <a href="https://raharja.ac.id/">https://raharja.ac.id/</a>
-                  </p>
+              <div class="col-6">
+                <div data-aos="zoom-in" class="card text-center">
+                  <div style="margin-top: 1rem;"">
+                    <img src="img/BeFunky-design (2).jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h2>Universitas Raharja</h2>
+                      <h3>2019-NOW</h3>
+                      <a href="https://raharja.ac.id/">https://raharja.ac.id/</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- Achivement -->
-        <div class="text-center mb-3 text-dark">
-          <div id="nama" class="col">
-            <h1>Achivement</h1>
-          </div>
-          <div class="container">
-            <div data-aos="flip-left" class="card" style="width: 12rem; height: 23rem;">
-              <img src="/img/ilustrasi-orang-diskusi-debat-dialog.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">
-                  <h4>#Debate Champion#</h4>
-                  <h6>2nd place in Banten Province Debate Competition</h6>
-                </p>
-              </div>
-            </div>
-            <div data-aos="flip-right" class="card" style="width: 12rem; height: 23rem;;">
-              <img src="/img/ilustrasi essay (1).jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">
-                  <h4>Essay Competition and LKTI</h4>
-                  <h6>3rd place in Essay and LKTI Competition</h6>
-                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Experience -->
-    <section id="Experience" class="text-center mb-3 text-light">
-      <div class="text-center text-light">
-        <div class="col">
-          <h1>Experience</h1><br><br>
-          <div class="container">
-            <div data-aos="zoom-out">
-              <h1>#April 2020 - April 2021</h1>
-              <h4>*BADAN EKSEKUTIF MAHASISWA*</h4>
-            <h6>make efforts to improve student academics, assist students who are constrained in facing the stages of academic evaluation and evaluation of the study period, facilitate students who are financially constrained, provide information about education, scholarships
-            </h6>
-            </div>
-            <div data-aos="zoom-out">
-              <h1>#Desember 2021 - Maret 2022</h1>
-              <h4>*ADMINISTRATION STAFF*</h4>
-              <h6>i used to work at PT. Informatika Media Sentosa, Perform basic bookkeeping activities. Plan and organize meetings or conferences. Write and distribute meeting minutes to all parties who need them. Maintain company documents, both physical and digital.
-              </h6>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
+          <!-- Achivement -->
+      <!-- Experience -->
+    <section id="Experience" class="text-center text-light">
+      <div class="container">
+        <div class="text-center text-light">
+          <div>
+            <h1>Experience</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-5">
+              <div data-aos="fade-right">
+                <h4>April 2020 - April 2021</h4>
+                <h4>*BADAN EKSEKUTIF MAHASISWA*</h4>
+              <h6>make efforts to improve student academics, assist students who are constrained in facing the stages of academic evaluation and evaluation of the study period, facilitate students who are financially.
+              </h6>
+              </div>
+            </div>
+            <div class="col-5">
+              <div data-aos="fade-left">
+                <h4>Desember 2021 - Maret 2022</h4>
+                <h4>*ADMINISTRATION STAFF*</h4>
+                <h6>i used to work at PT. Informatika Media Sentosa, Perform basic bookkeeping activities. Plan and organize meetings or conferences. Write and distribute meeting minutes to all parties who need them. Maintain company documents, both physical and digital.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"

@@ -1,17 +1,22 @@
 body {
   margin: 0%;
   padding: 0%;
+  width: 100%;
+  height: auto;
 }
 
-.container {
-  width: auto;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-content: center;
-  justify-items: center;
-  column-gap: 0.5rem;
+img {
+  width: 100%;
+  height: auto;
 }
+
+card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .education {
   width: auto;
   margin: auto;
@@ -27,7 +32,7 @@ body {
 }
 
 #jumbotron {
-  padding-top: 2rem;
+  padding-top: 5rem;
   background-color: #353b40;
 }
 
@@ -38,6 +43,8 @@ body {
 
 #nav1 {
   background-color: #0000009d;
+  width: 100%;
+  height: auto;
 }
 
 section {

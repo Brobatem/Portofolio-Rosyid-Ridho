@@ -13,13 +13,18 @@
   <body>
     
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <nav id="navbar" class="row navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Muhammad Rosyid Ridho</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="row">
+          <div class="col-6">
+            <a class="navbar-brand" href="#">Muhammad Rosyid Ridho</a>
+          </div>
+        <div class="col-5">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-6 collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#jumbotron ">Home</a>
@@ -38,6 +43,7 @@
             </li>
           </ul>
         </div>
+        </div>
       </div>
     </nav>
     <!-- akhir navbar -->
@@ -48,23 +54,25 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="fs-4 text-center">
+              <div data-aos="fade-right">
                 <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Muhammad Rosyid Riho" class="rounded-circle img-fluid" 
                  style="height: 25rem; width:25rem"/>
-              <div class="display-4 text-white">
+              </div>
+              <div class=" text-white" data-aos="fade-right">
                 <h1>Muhammad Rosyid Ridho</h1>
                 <p class="lead text-white">Technical Information | Software Engeneering</p>
               </div>
             </div>
           </div>
-          <div id="about" class="col-lg-6" data-aos="zoom-in">
-            <div class="fs-4 text-center"><br><br> 
-              <h1 class="text-light">About Me</h1>
-              <div class="col">
-                <p id="nama">
+          <div id="about" class="col-lg-6" data-aos="fade-left">
+            <div class="fs-4 text-center text-light"><br><br> 
+              <h1>About Me</h1>
+              <div class="col aos-init aos-animate">
+                <h5>
                   Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!<br><BR>
                    I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
                   activities makes me have to continue to study time management.
-                </p>
+                  </h>
               </div>
             </div>
           </div>
@@ -134,24 +142,24 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
-            <div class="card" data-tilt="" style="height: 260px;">
+          <div class="col-4" data-aos="fade-right">
+            <div class="card" data-tilt="" style="height: 215px;">
              <img src="img/image-removebg-preview (6).png" alt="">
             </div>
             <div class="text-center text-light">
               <h4>html, Css, JavaScript</h4>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card " data-tilt="" style="height: 260px;">
+          <div class="col-4" data-aos="zoom-in">
+            <div class="card " data-tilt="" style="height: 215px;">
              <img src="img/image-removebg-preview.png" alt="">
             </div>
             <div class="text-center text-light">
               <h4>Photo and Video Editing</h4>
             </div>
           </div>
-          <div class="col-4" >
-            <div class="card" data-tilt="" style="height: 260px">
+          <div class="col-4 aos-init aos-animation" data-aos="fade-left">
+            <div class="card" data-tilt="" style="height: 215px">
                 <img src="img/image-removebg-preview (8).png" alt="" >
             </div>
             <div class="text-center text-light">
@@ -168,19 +176,19 @@
           <div>
             <h1>Experience</h1>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center md-3" data-aos="zoom-in">
             <div class="col-5 aos-init aos-animate">
-              <div data-aos="zoom-in">
-                <h4>April 2020 - April 2021</h4>
-                <h6>BADAN EKSEKUTIF MAHASISWA</h6>
+              <div>
+                <h5>April 2020 - April 2021</h5><br>
+                <h6>BADAN EKSEKUTIF MAHASISWA</h6><br>
               <h6>make efforts to improve student academics, assist students who are constrained in facing the stages of academic evaluation and evaluation of the study period, facilitate students who are financially.
               </h6>
               </div>
             </div>
             <div class="col-5 aos-init aos-animate">
-              <div data-aos="zoom-in">
-                <h4>Desember 2021 - Maret 2022</h4>
-                <h6>ADMINISTRATION STAFF</h6>
+              <div>
+                <h5>Desember 2021 - Maret 2022</h5><br>
+                <h6>ADMINISTRATION STAFF</h6><br>
                 <h6>i used to work at PT. Informatika Media Sentosa, Perform basic bookkeeping activities. Plan and organize meetings or conferences. Write and distribute meeting minutes to all parties who need them.
                 </h6>
               </div>
@@ -200,8 +208,8 @@
 
     <!-- CONTACT -->
     <section id="contact"class="footer">
-      <div class="footer-content" data-aos="zoom-in">
-        <div class="row text-center">
+      <div class="footer-content">
+        <div class="row text-center" data-aos="zoom-out">
           <div class="col-18 ">
             <h2>MY CONTACT</h2>
             <a href="https://api.whatsapp.com/send/?phone=5285780060232 ">
@@ -252,7 +260,7 @@
 
    <script>
      gsap.from('.img-thumbnail', { duration: 1, rotationX: 180 });
-     gsap.from('.navbar', { duration: 1.5, opacity: 0, y: '-100%', ease: 'bounce' });
+     gsap.from('.navbar', { duration: 1.5, opacity: 0, y: '-100%', ease: '' });
      gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
 
      gsap.registerPlugin(TextPlugin);

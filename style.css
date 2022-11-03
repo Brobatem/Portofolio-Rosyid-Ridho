@@ -9,11 +9,16 @@ section {
   padding-top: 6rem;
 }
 
-card {
+.card {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
+  background-color: #000000;
+}
+
+#imgTIlt {
+  width: fit-content;
 }
 
 .education {

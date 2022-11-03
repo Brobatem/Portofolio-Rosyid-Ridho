@@ -1,6 +1,12 @@
 body {
   margin: 0%;
   padding: 0%;
+  font-family: monospace;
+}
+
+section {
+  background-color: #273036;
+  padding-top: 6rem;
 }
 
 card {
@@ -24,7 +30,7 @@ card {
   grid-template-columns: 50% 50%;
 }
 
-#jumbotron {
+.jumbotron {
   padding-top: 5rem;
   background-color: #353b40;
 }
@@ -36,11 +42,6 @@ card {
 
 #nav1 {
   background-color: #0000009d;
-}
-
-section {
-  background-color: #273036;
-  padding-top: 6rem;
 }
 
 #background {

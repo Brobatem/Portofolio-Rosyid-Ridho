@@ -11,17 +11,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: monospace;
-  width: auto;
+  width: 100vw;
 }
 #naviga {
-  max-width: auto;
-}
-
-/* responsive */
-@media (max-width: 616px) {
-}
-
-@media (max-width: 300px) {
+  width: 100vw;
 }
 
 section {
@@ -29,7 +22,7 @@ section {
 }
 
 .container {
-  width: 100%;
+  width: 100vh;
   height: auto;
   padding-bottom: 0rem;
 }

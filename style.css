@@ -11,10 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: monospace;
-  width: 100vw;
-}
-#naviga {
-  width: 100vw;
+  width: 100;
 }
 
 section {
@@ -24,7 +21,11 @@ section {
 .container {
   width: 100vh;
   height: auto;
-  padding-bottom: 0rem;
+  padding-bottom: 4rem;
+}
+
+#naviga {
+  width: 100vw;
 }
 
 #navbar {
@@ -37,7 +38,6 @@ section {
   height: auto;
   display: flex;
   justify-content: center;
-  background-color: #000000;
 }
 
 .education {
@@ -66,11 +66,10 @@ section {
   font-family: "open sans";
   padding-top: 40px;
   color: #fff;
-  grid-template-rows: 50% 50%;
   justify-content: center;
   justify-items: center;
   column-gap: 1rem;
-  font-size: larger;
+  font-size: medium;
   padding-bottom: 60px;
   width: 100%;
 }

@@ -6,24 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
     <title>Portofolio Rosyid Ridho</title>
-
   </head>
 
   <body>
-    
-    <!-- navbar -->
-    <nav id="naviga" class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" style="transform: translate(0px, 0px); opacity: 1;">
-      <div class="container">
-        <a class="navbar-brand" href="#">Muhammad Rosyid Ridho</a>
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" style="transform: translate(0px, 0px); opacity: 1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="margin: center">Muhammad Rosyid RIdho</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarNav" style="">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -32,10 +30,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Skill">Skill</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -46,121 +41,109 @@
     </nav>
     <!-- akhir navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron">
-      <div class="container">
-        <div class="row align-content-center">
-          <div class="col-lg-6">
-            <div class="col text-center" data-aos="zoom-in">
-              <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Muhammad Rosyid Riho" class="rounded-circle img-fluid" 
-               style="height: 25rem; width:25rem"/>
-            </div>
-            <div class="row text-center text-white" data-aos="zoom-in">
-              <h1>Muhammad Rosyid Ridho</h1>
-              <p class="lead text-white">Technical Information | Software Engeneering</p>
+    <!-- jumbotron -->
+    <section>
+      <div class="container pt-5 text-center">
+        <div class="row justify-content-center">
+          <div class="col-6 pt-5">
+            <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Rosyid Ridho" width="200" class="rounded-circle img-thumbnail" style="transform: translate(0px, 0px)" />
+            <div class=" align-items-center bg-secondary">
+              <h1 class="Nama display-4 fs-2 fw-bold" style="transform: translate(0px, 0px); opacity: 1">Welcome to my Portofolio</h1>
+              <p class="lead fw-bold">introduce My Self</p>
             </div>
           </div>
-          <div id="about" class="col-lg-6 pt-5 text-center text-light">
-            <div class="row text-center text-light pt-5"> 
+          <div class="col-6 pt-5">
+            <div class="align-items-center bg-secondary">
               <h1>About Me</h1>
             </div>
-            <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1000">
-              <h5>
-                Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!.
-              </h5>
-            </div>
-            <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1500">
-              <h5>
+            <div class="row fw-bold">
+              <p>
+                Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a
+                custom reblog button taught me a lot about HTML & CSS!.
+              </p>
+              <p>
                 I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
                 activities makes me have to continue to study time management.
-              </h5>
+              </p>
             </div>
           </div>
         </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#273036"
-            fill-opacity="1"
-            d="M0,256L6.2,229.3C12.3,203,25,149,37,112C49.2,75,62,53,74,69.3C86.2,85,98,139,111,176C123.1,213,135,235,148,202.7C160,171,172,85,185,69.3C196.9,53,209,107,222,138.7C233.8,171,246,181,258,197.3C270.8,213,283,235,295,202.7C307.7,171,320,85,332,58.7C344.6,32,357,64,369,106.7C381.5,149,394,203,406,197.3C418.5,192,431,128,443,117.3C455.4,107,468,149,480,170.7C492.3,192,505,192,517,202.7C529.2,213,542,235,554,256C566.2,277,578,299,591,272C603.1,245,615,171,628,160C640,149,652,203,665,202.7C676.9,203,689,149,702,133.3C713.8,117,726,139,738,154.7C750.8,171,763,181,775,181.3C787.7,181,800,171,812,165.3C824.6,160,837,160,849,165.3C861.5,171,874,181,886,181.3C898.5,181,911,171,923,186.7C935.4,203,948,245,960,218.7C972.3,192,985,96,997,58.7C1009.2,21,1022,43,1034,58.7C1046.2,75,1058,85,1071,117.3C1083.1,149,1095,203,1108,218.7C1120,235,1132,213,1145,181.3C1156.9,149,1169,107,1182,90.7C1193.8,75,1206,85,1218,112C1230.8,139,1243,181,1255,197.3C1267.7,213,1280,203,1292,208C1304.6,213,1317,235,1329,224C1341.5,213,1354,171,1366,176C1378.5,181,1391,235,1403,229.3C1415.4,224,1428,160,1434,128L1440,96L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"
-          ></path>
-        </svg>
       </div>
     </section>
     <!-- akhir jumbotron -->
-    <!-- education and Achivement-->
-    <section id="Education">
-        <div class="container">
-         <!-- education --> 
-         <div class="row">
-          <div class="col">
-            <div class="text-center text-light" style="margin-bottom: 2rem;">
-              <h1>Educations</h1>
-            </div>
+
+    <!-- Education -->
+    <section class="education text-center pt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-2 card align-items-center bg-secondary mb-5">
+            <h1>Education</h1>
+          </div>
             <div class="row"> 
               <div class="col-6">
-                <div data-aos="zoom-in" class="card text-center">
+                <div data-aos="zoom-in" class="card text-center aos-init aos-animate" style="width:40vw; height: auto;">
                   <div style="margin-top: 1rem;">
                     <img src="img/maxresdefault.jpg" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body text-dark">
                     <p class="card-text" style="color: #000000;">
-                      <h2>Man1 Kota Tangerang</h2>
+                      </p><h2>Man1 Kota Tangerang</h2>
                       <h3>2016-2019</h3>
                     <a href="https://mankotatangerang1.com/">https://mankotatangerang1.com/</a>
-                    </p>
+                    <p></p>
                   </div>
                 </div>
               </div>
               <div class="col-6">
-                <div data-aos="zoom-in" class="card text-center">
-                  <div style="margin-top: 1rem;"">
+                <div data-aos="zoom-in" class="card text-center aos-init aos-animate" style="width:40vw; height: auto;">
+                  <div style="margin-top: 1rem;" "="">
                     <img src="img/BeFunky-design (2).jpg" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body text-dark">
                     <p class="card-text">
-                      <h2>Universitas Raharja</h2>
+                      </p><h2>Universitas Raharja</h2>
                       <h3>2019-NOW</h3>
                       <a href="https://raharja.ac.id/">https://raharja.ac.id/</a>
-                    </p>
+                    <p></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </section>
-    <!-- ahir education -->
+    <!-- akhir Education -->
+    <!-- skill -->
     <section>
-      <div id="Skill" class="container">
-        <div class="row">
-          <div class="col">
-            <div class="text-center text-light" style="margin-bottom: 2rem;">
+      <div id="Skill" class="container pt-5">
+        <div class="row justify-content-center">
+          <div class="col-2">
+            <div class="card text-center text-light bg-secondary" style="margin-bottom: 2rem;">
               <h1>Skill</h1>
             </div>
           </div>
         </div>
-        <div class="row aos-init aos-animation">
-          <div class="col-4" data-aos="fade-up"  data-aos-duration="1000">
-            <div class="card" data-tilt="" style="height: 215px;">
+        <div class="row aos-init aos-animation ">
+          <div class="col-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card m-auto" data-tilt="" style="width:20vw; height: auto; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform;">
              <img src="img/image-removebg-preview (6).png" alt="">
             </div>
             <div class="text-center text-light">
               <h4>html, Css, JavaScript</h4>
             </div>
           </div>
-          <div class="col-4" data-aos="fade-up"  data-aos-duration="1500">
-            <div class="card " data-tilt="" style="height: 215px;">
-             <img src="img/image-removebg-preview.png" alt="">
+          <div class="col-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+            <div class="card m-auto" data-tilt="" style="width:20vw; height: auto; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform;">
+             <img src="img/BeFunky-design__7_-removebg-preview.png" alt="">
             </div>
             <div class="text-center text-light">
               <h4>Photo and Video Editing</h4>
             </div>
           </div>
-          <div class="col-4" data-aos="fade-up"  data-aos-duration="2000">
-            <div class="card" data-tilt="" style="height: 215px">
-                <img src="img/image-removebg-preview (8).png" alt="" >
+          <div class="col-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card m-auto" data-tilt="" style="width:20vw; height: auto; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform;">
+                <img src="img/BeFunky-design__8_-removebg-preview.png" alt="">
             </div>
             <div class="text-center text-light">
               <h4>Microsoft Office Suite</h4>
@@ -169,16 +152,17 @@
         </div>
       </div>
     </section>
-      <!-- Experience -->
-    <section id="Experience" class="text-center text-light">
-      <div class="container" style="padding-top: 5rem;">
+    <!-- akhir Skill -->
+    <!-- Experience -->
+    <section id="Experience">
+      <div class="container text-center text-light pb-xl-5 pt-xl-5">
         <div class="text-center text-light">
-          <div>
+          <div class="col-3 card m-auto bg-secondary mb-3">
             <h1>Experience</h1>
           </div>
-          <div class="row justify-content-center md-3" data-aos="zoom-in">
+          <div class="row justify-content-center md-3 aos-init aos-animate" data-aos="zoom-in">
             <div class="col-5 aos-init aos-animate">
-              <div class="card text-light bg-secondary" >
+              <div class="card text-light bg-dark">
                 <h5>April 2020 - April 2021</h5><br>
                 <h6>BADAN EKSEKUTIF MAHASISWA</h6><br>
               <h6>make efforts to improve student academics, assist students who are constrained in facing the stages of academic evaluation and evaluation of the study period, facilitate students who are financially.
@@ -186,7 +170,7 @@
               </div>
             </div>
             <div class="col-5 aos-init aos-animate">
-              <div class="card text-light bg-secondary">
+              <div class="card text-light bg-dark">
                 <h5>Desember 2021 - Maret 2022</h5><br>
                 <h6>ADMINISTRATION STAFF</h6><br>
                 <h6>i used to work at PT. Informatika Media Sentosa, Perform basic bookkeeping activities. Plan and organize meetings or conferences. Write and distribute meeting minutes to all parties who need them.
@@ -195,28 +179,20 @@
             </div>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#f3f4f5"
-          fill-opacity="0.5"
-          d="M0,0L6.2,37.3C12.3,75,25,149,37,165.3C49.2,181,62,139,74,128C86.2,117,98,139,111,165.3C123.1,192,135,224,148,202.7C160,181,172,107,185,80C196.9,53,209,75,222,106.7C233.8,139,246,181,258,202.7C270.8,224,283,224,295,218.7C307.7,213,320,203,332,197.3C344.6,192,357,192,369,208C381.5,224,394,256,406,261.3C418.5,267,431,245,443,213.3C455.4,181,468,139,480,144C492.3,149,505,203,517,208C529.2,213,542,171,554,170.7C566.2,171,578,213,591,229.3C603.1,245,615,235,628,213.3C640,192,652,160,665,165.3C676.9,171,689,213,702,213.3C713.8,213,726,171,738,149.3C750.8,128,763,128,775,138.7C787.7,149,800,171,812,170.7C824.6,171,837,149,849,138.7C861.5,128,874,128,886,117.3C898.5,107,911,85,923,64C935.4,43,948,21,960,16C972.3,11,985,21,997,37.3C1009.2,53,1022,75,1034,117.3C1046.2,160,1058,224,1071,256C1083.1,288,1095,288,1108,245.3C1120,203,1132,117,1145,101.3C1156.9,85,1169,139,1182,154.7C1193.8,171,1206,149,1218,128C1230.8,107,1243,85,1255,69.3C1267.7,53,1280,43,1292,58.7C1304.6,75,1317,117,1329,154.7C1341.5,192,1354,224,1366,224C1378.5,224,1391,192,1403,176C1415.4,160,1428,160,1434,160L1440,160L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"
-        ></path>
-      </svg>
+      </div> 
     </section>
-    <!-- Akhir education and Achivement-->
-
-    <!-- CONTACT -->
-    <section id="contact"class="footer">
+    <!-- akhir Experience -->
+    <!-- contact -->
+    <section id="contact" class="footer">
       <div class="footer-content ">
-        <div class="row text-center" >
+        <div class="row text-center">
           <div class="col-12 ">
             <h2>MY CONTACT</h2>
           </div>
         </div>
-        <div class="row justify-content-center" data-aos="zoom-in">
+        <div class="row justify-content-center aos-init aos-animate" data-aos="zoom-in">
           <div class="row">
-            <div class="col text-center" >
+            <div class="col text-center">
               <a href="https://api.whatsapp.com/send/?phone=6285780060232 ">
                 <button type="button" class="btn btn-success">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -250,66 +226,63 @@
       </div>
       </div>
     </section>
-
-      <!-- ini script semua -->
-      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <!-- akhir Contact -->
+    <!-- ini script semua -->
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script type="text/javascript" src="/js/vanilla-tilt.min.js"></script>
 
-    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
-     <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-     crossorigin="anonymous"
-   ></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
 
-   <script>
-     gsap.from('.img-thumbnail', { duration: 1, rotationX: 180 });
-     gsap.from('.navbar', { duration: 2, opacity: 0, y: '-100%', ease: 'bounce' });
-     gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
+    <script>
+      gsap.from(".img-thumbnail", { duration: 1, rotationX: 90 });
+      gsap.from(".navbar", { duration: 2, opacity: 0, y: "-100%", ease: "bounce" });
+      gsap.from(".display-4", { delay: 0, duration: 1, opacity: 0, x: "-10%" });
 
-     gsap.registerPlugin(TextPlugin);
-     gsap.to('.lead', { delay: 1.5, duration: 2, text: 'Technical Information | Software Engeneering' });
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { delay: 3, duration: 2, text: "Technical Information | Software Engeneering" });
+      gsap.to(".Nama", { delay: 3, duration: 2, text: "Muhammad Rosyid Ridho" });
 
-     const galleryImages = document.querySelectorAll('.gallery-img');
-     const delayTimes = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450];
+      const galleryImages = document.querySelectorAll(".gallery-img");
+      const delayTimes = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450];
 
-     function shuffleArray(array) {
-       for (var i = array.length - 1; i > 0; i--) {
-         var j = Math.floor(Math.random() * (i + 1));
-         var temp = array[i];
-         array[i] = array[j];
-         array[j] = temp;
-       }
-       return array;
-     }
-     const newDelay = shuffleArray(delayTimes);
-     galleryImages.forEach((img, i) => {
-       img.dataset.aos = 'fade-up';
-       img.dataset.aosDelay = i * 50 + '';
-       // img.dataset.aosDelay = newDelay[i];
-     });
+      function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+        return array;
+      }
+      const newDelay = shuffleArray(delayTimes);
+      galleryImages.forEach((img, i) => {
+        img.dataset.aos = "fade-up";
+        img.dataset.aosDelay = i * 50 + "";
+        // img.dataset.aosDelay = newDelay[i];
+      });
 
-     AOS.init({
-       once: true,
-       duration: 3000,
-     });
-   </script>
+      AOS.init({
+        once: true,
+        duration: 3000,
+      });
+    </script>
 
-
-   <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-   <script type="text/javascript">
-     VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
-       max: 35,
-       speed: 1000,
-       glare: true,
-     });
-   </script>  
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
   </body>
 </html>

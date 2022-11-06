@@ -51,33 +51,29 @@
       <div class="container">
         <div class="row align-content-center">
           <div class="col-lg-6">
-            <div class=" text-center">
-              <div data-aos="zoom-in">
-                <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Muhammad Rosyid Riho" class="rounded-circle img-fluid" 
-                 style="height: 25rem; width:25rem"/>
-              </div>
-              <div class=" text-white" data-aos="zoom-in">
-                <h1>Muhammad Rosyid Ridho</h1>
-                <p class="lead text-white">Technical Information | Software Engeneering</p>
-              </div>
+            <div class="col text-center" data-aos="zoom-in">
+              <img src="img/BeFunky-design__3_-removebg-preview.png" alt="Muhammad Rosyid Riho" class="rounded-circle img-fluid" 
+               style="height: 25rem; width:25rem"/>
+            </div>
+            <div class="row text-center text-white" data-aos="zoom-in">
+              <h1>Muhammad Rosyid Ridho</h1>
+              <p class="lead text-white">Technical Information | Software Engeneering</p>
             </div>
           </div>
-          <div id="about" class="col">
-            <div class="row text-center justify-content-center text-light"> 
+          <div id="about" class="col-lg-6 pt-5 text-center text-light">
+            <div class="row text-center text-light pt-5"> 
               <h1>About Me</h1>
-              <div class="row text-center">
-                <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1000">
-                  <h5>
-                    Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!.
-                  </h5>
-                </div>
-                <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1500">
-                  <h5>
-                    I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
-                    activities makes me have to continue to study time management.
-                  </h5>
-                </div>
-              </div>
+            </div>
+            <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1000">
+              <h5>
+                Hello! My name is Rosyid Ridho and I enjoy creating things that live on the internet, My interest in web development started back in 2019 when I decided to try editing my father Portofolio — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!.
+              </h5>
+            </div>
+            <div class="row aos-init aos-animation" data-aos="zoom-in-left" data-aos-duration="1500">
+              <h5>
+                I am a person who likes challenges and multitasking. Studying in informatics engineering has made me a person who is thorough, careful, and always questions the validity of data. My love of doing things outside of college
+                activities makes me have to continue to study time management.
+              </h5>
             </div>
           </div>
         </div>
@@ -275,7 +271,7 @@
 
    <script>
      gsap.from('.img-thumbnail', { duration: 1, rotationX: 180 });
-     gsap.from('.navbar', { duration: 1.5, opacity: 0, y: '-100%', ease: '' });
+     gsap.from('.navbar', { duration: 2, opacity: 0, y: '-100%', ease: 'bounce' });
      gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
 
      gsap.registerPlugin(TextPlugin);
